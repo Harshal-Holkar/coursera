@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font: 175% 'times New Roman';
+}
+
+.box {
+    width: 100%;
+    border: 5px solid sandybrown;
+    padding: 1%;
+    margin-bottom: 5px;
+    background-color: rgb(253, 223, 201);
+    overflow: auto;
+    /* float: left; */
+    /* margin-left: 2%; */
+}
+
+h3 {
+    color: brown;
+    background-color: rgb(204, 202, 202);
+    border: 3px solid goldenrod;
+    width: 20%;
+    text-align: center;
+    float: right;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 125%;
+}
+
+p {
+    color: royalblue;
+    clear: both;
+    font: 100% 'Times New Roman';
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .box {
+        float: left;
+        width: 49%;
+    }
+    .b2 {
+        margin-left: 2%;
+    }
+    .b3 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        float: left;
+        width: 32%;
+        margin-left: 1%;
+    }
+}
