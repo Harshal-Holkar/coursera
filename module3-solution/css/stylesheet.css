@@ -1,0 +1,150 @@
+/* #header-nav {
+    background-color: grey;
+    border: 3px solid black;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.container {
+    margin-left: 45;
+}
+
+.menuheading {
+    text-align: center;
+    padding: 20px;
+}
+
+.itemheading {
+    text-align: center;
+}
+
+.item {
+    background-color: grey;
+    box-sizing: border-box;
+    margin: 10px;
+    float: left;
+    width: 32%;
+}
+
+.info {
+    padding: 15px;
+    padding-top: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* .item1,
+.item2,
+.item3 {
+    float: left;
+} */
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font: 175% 'times New Roman';
+}
+
+.box {
+    width: 100%;
+    border: 5px solid sandybrown;
+    padding: 1%;
+    margin-bottom: 5px;
+    background-color: rgb(253, 223, 201);
+    overflow: auto;
+    /* float: left; margin-left: 2%; }
+h3 {
+    color: brown;
+    background-color: rgb(204, 202, 202);
+    border: 3px solid goldenrod;
+    width: 20%;
+    text-align: center;
+    float: right;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 125%;
+}
+p {
+    color: royalblue;
+    clear: both;
+    font: 100% 'Times New Roman';
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .box {
+        float: left;
+        width: 49%;
+    }
+    
+    .b2 {
+        margin-left: 2%;
+    }
+    
+    .b3 {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .box {
+        float: left;
+        width: 32%;
+        margin-left: 1%;
+    }
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border: none;
+    background-color: black;
+    color: #61122F;
+}
+
+body {
+    background-color: #61122F;
+    color: white;
+}
+
+.glyphicon {
+    font-size: 30px;
+    color: #61122F;
+}
+
+.center {
+    width: 90%;
+    background-color: grey;
+}
+
+.container {
+    background-color: grey;
+}
+
+.text-center {
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#myNavbar ul li a {
+    color: #61122F;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
