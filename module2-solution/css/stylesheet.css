@@ -33,7 +33,8 @@ h3 {
     width: 20%;
     text-align: center;
     float: right;
-    margin-top: 0px;
+    margin: -13px;
+    margin-bottom: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 125%;
 }

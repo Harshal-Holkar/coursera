@@ -62,7 +62,7 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
 
     // On page load (before images or CSS)
     document.addEventListener("DOMContentLoaded", function(event) {
-
+        //             *******************************************************
         // MY WORK TO EDIT BEHAVIOUR OF WEBSITE'S SPECIAL TILES 
         showLoading("#main-content");
         $ajaxUtils.sendGetRequest(
@@ -70,9 +70,6 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
             buildAndShowHomeHTML,
             true);
     });
-
-
-
 
     function buildAndShowHomeHTML(categories) {
 
@@ -93,7 +90,7 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
             },
             false);
     }
-
+    //             *******************************************************
 
     // Given array of category objects, returns a random category object.
     function chooseRandomCategory(categories) {
